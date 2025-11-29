@@ -1,0 +1,96 @@
+/* === DARK MODE MODERN === */
+
+body {
+    background: #0d0d0d;
+    color: #e5e5e5;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 480px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #d8d8d8;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background: #111;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4c4cff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+button:hover {
+    background: #3a3ae6;
+}
+
+a {
+    color: #66aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #99c7ff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 25px 0;
+}
+.pokemon-card {
+    width: 260px;
+    background: #fff;
+    padding: 0px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.pokemon-card .poke-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.poke-img {
+    width: 120px;
+    margin: -40px auto 5px;   /* naik 20px */
+    display: block;
+}
+
+
+
+
